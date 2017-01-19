@@ -1,0 +1,2 @@
+mailman==3.0.3
+mailman-hyperkitty==1.0
