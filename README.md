@@ -1,1 +1,3 @@
-# mailman3-docker-monolith
+# mailman3-docker
+
+Docker container for mailman3.
