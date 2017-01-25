@@ -45,6 +45,7 @@ EXPOSE 8024
 EXPOSE 8001
 
 USER root
+RUN ln -s `which true` /usr/sbin/postmap
 
 #CMD /usr/bin/supervisord 
 CMD /run.sh
