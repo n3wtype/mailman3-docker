@@ -14,8 +14,8 @@ config['paths.here']={'var_dir': '{}'.format(os.getenv('MAILMAN_HOME'))}
 config['mta'] = {}
 config['mta']['incoming']='mailman.mta.postfix.LMTP'
 config['mta']['outgoing']='mailman.mta.deliver.deliver'
-config['mta']['lmpt_host']=os.getenv('HOSTNAME')
-config['mta']['lmpt_port']='8024'
+config['mta']['lmtp_host']=os.getenv('HOSTNAME')
+config['mta']['lmtp_port']='8024'
 config['mta']['smtp_host']=os.getenv('MAILMAN_SMTP_HOST')
 config['mta']['smtp_port']=os.getenv('MAILMAN_SMTP_PORT', '25')
 
